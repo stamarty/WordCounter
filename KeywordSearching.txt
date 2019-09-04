@@ -1,0 +1,101 @@
+UNity
+C#
+deveping
+publishing
+unreal engine
+SDLC
+.NET
+C#
+Web Services
+SQL
+IAM Applications
+Identity and Access Management
+Windows
+C#
+.NET
+Microsoft Office
+Google Apps
+Visual Studios
+TFS
+Communicator
+team environment
+team leader
+organizational abilities
+passion for software development
+passion for leadership
+OOP
+C#
+JAVA
+JavaScript
+.NET
+Microsoft Stack
+Web Socket
+Python
+SQL
+Data Pipelines
+AWS
+LAMBDA
+S3
+DynamoDB
+Manipulating Large Amounts of Data
+Methodical
+Detail Oriented
+Full stack web development
+data modeling
+data warehouse architecture
+integration pipelines
+javascript
+python
+powershell
+python
+source control
+code review
+React
+C#
+ASP.NET Core
+Web API
+AWS
+SQL Server
+Redis
+Python
+willingness to learn
+sql
+self-motivated
+communicator
+excellent written and verbal communication skills
+strong documentation skills
+CSS
+HTML
+C#
+SQL
+JavaScript
+ASP.NET
+MVC
+CSS
+ASP.NET
+HTML5
+OOP
+Database technologies
+Problem Solving Skills
+understand and analyze complex issues
+detail oriented
+motivated
+organized
+communication
+teamwork
+Microsoft Visual Studio
+ASP.NET
+Visual Basic.NET
+C#
+HTML
+MVC
+WinForms
+JavaSCript
+SSRS
+Team Foundation Server
+unit testing
+functional testing
+
+
+
+
