@@ -7,8 +7,6 @@ lines = dict()
 for line in lines:
     words = line.split()
     for word in words:
-        
-
 
 masterDoc = open("C:/Users/Steven.Martinez/source/repos/WordCounter/masterdocs/master.txt", "w")
 masterDoc.write("yay!")
