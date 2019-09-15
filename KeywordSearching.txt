@@ -1,6 +1,6 @@
 UNity
 C#
-deveping
+developing
 publishing
 unreal engine
 SDLC

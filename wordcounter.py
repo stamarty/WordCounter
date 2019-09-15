@@ -1,22 +1,19 @@
-#This should commit a change from here.
-#Change these to inputs values for final.
-f = open("C:/Users/Steven.Martinez/source/repos/WordCounter/KeywordSearching.txt")
+#trying to split each line into its individual words and create a full list of words used.
+#Make the list
 
-## trying to split each line into its individual words and create a full list of words used.
-lines = dict()
+#inFile = input("Where is the file you'd like to analyze?")
+#outFile = input('Which file do you want to append to?')
 
-#for line in lines:
-#    words = line.split()
-#    for word in words:
+inFile = open("KeywordSearching.txt", 'r')
+outFile = open("E:\Program Files\Repos\WordCounter\masterdocs\master.txt", 'a')
+inData = inFile.read()
+inFile.close()
+outData = outFile.write(inData.upper())
+outFile.close()
 
-masterDoc = open("C:/Users/Steven.Martinez/source/repos/WordCounter/masterdocs/master.txt", "w")
-masterDoc.write("yay!")
+keywords = open('E:\Program Files\Repos\WordCounter\masterdocs\master.txt').readlines()
+keywords.sort()
+print('Sorted list: ', keywords)
 
-for x in f:
-    x.lower()
-    x.split()
-    x.write(masterDoc, "a")
-    print(x)
 
-f.close()
-masterDoc.close()
+####Current problem? How to get rid of all the '\n'
