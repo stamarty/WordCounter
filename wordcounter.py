@@ -11,13 +11,17 @@ outData = outFile.write(inData.upper())
 outFile.close()
 
 # let's try a dictionary?
+doc = open("masterdocs/master.txt", 'r')
 
-d = {}
-with open('masterdocs/master.txt') as keyword:
-    for line in keyword:
-        word = line.strip('\n')
-        d[word]
+d = dict()
+for line in doc:
+    if line not in d:
+        d[line] = 1
+    else:
+        d[line] = d[line] + 1
+
 print(d)
+
 
 # keywords = open('masterdocs/master.txt').readlines()
 # keywords.sort()
