@@ -13,6 +13,7 @@ outFile.close()
 # let's try a dictionary?
 doc = open("masterdocs/master.txt", 'r')
 
+# Dictionary works. All values are in console and counted.
 d = dict()
 for line in doc:
     if line not in d:
