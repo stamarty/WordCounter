@@ -14,6 +14,7 @@ try:
     doc = open("masterdocs/master.txt", 'r')
 except:
     print('File cannot be opened: ', doc)
+    quit()
 # Dictionary works. All values are in console and counted!
 d = dict()
 for line in doc:
