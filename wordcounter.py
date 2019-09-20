@@ -10,12 +10,14 @@ inFile.close()
 outData = outFile.write(inData.upper())
 outFile.close()
 
-# let's try a dictionary?
-doc = open("masterdocs/master.txt", 'r')
-
+try:
+    doc = open("masterdocs/master.txt", 'r')
+except:
+    print('File cannot be opened: ', doc)
 # Dictionary works. All values are in console and counted!
 d = dict()
 for line in doc:
+    line = line.strip()
     if line not in d:
         d[line] = 1
     else:
