@@ -4,7 +4,8 @@ Scan a file and count the number of times each word shows up.
 Right now the instructions are simple. 
 1) Open a .txt file.
 2) go to your favorite job serching site
-3) copy/paste or type in keywords that you find. 
+3) copy/paste or type in keywords that you find.
+3a) each key word should be on it's own line
 4) save the .txt and remember it's path. 
 5) open this project which you've already cloned to your machine.  
 6) run this project
