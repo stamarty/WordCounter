@@ -1,10 +1,8 @@
-# inFile = input("Where is the file you'd like to analyze?")
-# outFile = input('Which file do you want to append to?')
-
 # Copies text file to master.
 # Allows for manipulation while retaining original file
 
-inFile = open("KeywordSearching.txt", 'r')
+hFile = input("Where is the file you'd like to analyze? ")
+inFile = open(hFile, 'r')
 outFile = open("masterdocs/master.txt", 'w')
 inData = inFile.read()
 inFile.close()
